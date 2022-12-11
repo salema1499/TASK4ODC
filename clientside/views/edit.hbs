@@ -1,0 +1,25 @@
+{{>header}}
+{{>nav}}
+<section class="my-5 container">
+    <form action="/addLogicbook">
+        <div class="mb-3">
+            <label>Name Book :</label>
+            <input class="form-control" name="name-book" placeholder="name-book" value="{{result.name-book}}">
+        </div>
+        <div class="mb-3">
+                <label>Name Author :</label>
+            <input class="form-control" name="name-author" placeholder="name-author" value="{{result.name-author}}">
+        </div>
+        <div class="mb-3">
+            <input class="form-control" name="dueData" placeholder="dueDate" type="date" value="{{result.dueData}}">
+        </div>
+        <div class="mb-3">
+                <label>Pages :</label>
+            <input class="form-control" name="num-pages" placeholder="num-pages" value="{{result.num-pages}}">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary">Edit</button>
+        </div>
+    </form>
+</section>
+{{>footer}}

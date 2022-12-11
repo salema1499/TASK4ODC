@@ -1,0 +1,28 @@
+{{>header}}
+{{>nav}}
+<section class="my-5 container">
+    {{#unless data}}
+    <div class="alert alert-danger">
+        Invalid book id
+    </div>
+    {{else}}
+    <div class="row">
+        <div class="col-4">
+            id: {{data.id}}
+        </div>
+        <div class="col-4">
+            date: {{data.dueData}}
+        </div>
+        <div class="col-4">
+            Name-Book: {{data.name-book}}
+        </div>
+        <div class="col-4">
+            Name-Author: {{date.name-author}}
+        </div>
+        <div class="col-4">
+          Pages: {{date.pages}}
+        </div>
+    </div>
+    {{/unless}}
+</section>
+{{>footer}}

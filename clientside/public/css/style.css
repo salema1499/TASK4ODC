@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: aliceblue;
+
+}
+table{
+    border: solid rgb(201, 26, 26) 7px;
+    border-radius: 20%;
+}
+
+.app{
+    font-size: 25px;
+}
+
+.search{
+    border-radius: 20px;
+    color: black;
+    font-size: medium;
+   margin-top: 5px;
+   padding: 3px;
+}
